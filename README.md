@@ -12,7 +12,7 @@ moneyadviceservice.org.uk
 
 ## Languages, libraries and framework
 
-[Ruby](ruby.md)
+[Ruby](ruby-standards.md)
 
 ## Processes and other guidelines
 
