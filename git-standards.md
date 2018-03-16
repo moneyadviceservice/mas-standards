@@ -8,7 +8,7 @@ and developers reviewing a Pull request.
 
 ## Branches
 
-* Choose short and descriptive names.
+* Use short and descriptive names.
 
 ```
 # good
@@ -19,8 +19,8 @@ $ git checkout -b login_fix
 $ git checkout -b refactor
 ```
 
-* Identifiers from corresponding tickets in an external service (eg. Target
-Process) are also good candidates for use in branch names. For example:
+* Prefer identifiers from corresponding tickets in an external service (eg. Target
+Process) for use in branch names. For example:
 
 ```
 # Target process 8794 card
@@ -30,7 +30,7 @@ $ git checkout -b 8794-email-validation
 $ git checkout -b 8795-fix-email-validation
 ```
 
-* The type of the branch is also a good candidate for use in branch names.
+* Prefer the type of the branch when choosing the branch name.
 The type can be one of these types:
 
    - feature: a new feature
@@ -56,8 +56,8 @@ $ git checkout -b feature/add-pension-calculator
 $ git checkout -b feature/add_pension_calculator
 ```
 
-* Delete your branch from the upstream repository after it's merged, unless
-there is a specific reason not to.
+* Don't forget to delete your branch from the upstream repository after
+it's merged, unless there is a specific reason not to.
 
 ## Commits
 
@@ -69,7 +69,7 @@ there is a specific reason not to.
 * Don't split a single logical change into several commits.
     > For example, the implementation of a feature and the corresponding tests should be in the same commit.
 
-* Commit early and often.
+* Prefer commit early and often.
     > Small, self-contained commits are easier to understand and revert when something goes wrong. And this is particularly useful for using git-bisect.
     > **Tip:** Use git add -p to interactively stage specific portions of the modified files.
 
@@ -89,12 +89,12 @@ $ git commit
 $ git commit -m "Fix"
 ```
 
-* Limit the commit subject line to 50 characters.
+* Prefer to limit the commit subject line to 50 characters.
 	> 50 characters is not a hard limit, just a rule of thumb.
   > Keeping subject lines at this length ensures that they are readable, and forces the author to think for a moment about the most concise way to explain what’s going on.
   > Tip: If you’re having a hard time summarizing, you might be committing too many changes at once.
 
-* Capitalize the subject line and don't add periods at the end.
+* Use capitalize word the subject line and don't add periods at the end.
 
 ```
 good:
