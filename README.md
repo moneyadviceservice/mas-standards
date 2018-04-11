@@ -14,10 +14,16 @@ moneyadviceservice.org.uk
 
 * [Ruby](ruby-standards.md)
 
+## Testing Guides
+
+* [Cucumber](testing/cucumber)
+* [RSpec](testing/rspec)
+
 ## Processes and other guidelines
 
 * [Git](git-standards.md)
-* [Pull Request](pull-request.md)
+* [Pull Request Code of Conduct](pull-request-code-of-conduct.md)
+* [Pull Request Technical Guide](pull-request-technical-guide.md)
 
 ## Contributing
 
