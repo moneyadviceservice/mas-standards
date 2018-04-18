@@ -21,7 +21,7 @@ If there is a good match for the skills, notify the recruiter that we'd like to 
 
 The intial phone interview should be done by the Lead Dev and Department Head.  This is a chance to introduce ourselves to the candidate and to field any questions.  If we're not sure about the developer's level of experience with the three areas listed in Step 1, we should ask questions to clairify their experience.
 
-###Phone interview structure:
+### Phone interview structure:
   * Introductions and opening
   * Department head introduces the company
   * Lead Dev introduces themselves
