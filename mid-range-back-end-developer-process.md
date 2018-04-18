@@ -22,26 +22,26 @@ If there is a good match for the skills, notify the recruiter that we'd like to 
 The intial phone interview should be done by the Lead Dev and Department Head.  This is a chance to introduce ourselves to the candidate and to field any questions.  If we're not sure about the developer's level of experience with the three areas listed in Step 1, we should ask questions to clairify their experience.
 
 ###Phone interview structure:
-    * Introductions and opening
-    * Department head introduces the company
-    * Lead Dev introduces themselves
-    * Ask if the interviewee has any questions so far, answer them if there are
-    * Ask about the following things, using the CV as a kicking off point.  Again, we're looking for solid personal experience with:
-        * Coding Ruby on Rails (which versions)
-        * Test-driven development (which frameworks have they used)
-        * Using git and Pull Request-driven code review processes
-        * Agile methodologies used as part of an agile team
-        * How have they documented their code in a way to let other devs easily work on it should they need to?
-        * What build and depolyment systems have they used?
-        * What remote working experience they have, how has it worked for them?
-        * Any follow-up questions that arose from the interview so far
-    * Ask for further questions from either side
-    * Explain next steps, tell them that if we proceed with their interview they will be given a technical test and our expectations about that (let them know we'll need a github ID to give them permission to access the test)
-    * End interview
+  * Introductions and opening
+  * Department head introduces the company
+  * Lead Dev introduces themselves
+  * Ask if the interviewee has any questions so far, answer them if there are
+  * Ask about the following things, using the CV as a kicking off point.  Again, we're looking for solid personal experience with:
+    * Coding Ruby on Rails (which versions)
+    * Test-driven development (which frameworks have they used)
+    * Using git and Pull Request-driven code review processes
+    * Agile methodologies used as part of an agile team
+    * How have they documented their code in a way to let other devs easily work on it should they need to?
+    * What build and depolyment systems have they used?
+    * What remote working experience they have, how has it worked for them?
+  * Any follow-up questions that arose from the interview so far
+  * Ask for further questions from either side
+  * Explain next steps, tell them that if we proceed with their interview they will be given a technical test and our expectations about that (let them know we'll need a github ID to give them permission to access the test)
+  * End interview
 
-    If either the Lead Dev or Department Head have doubts about the interviewee we can e-mail the recuiter clairifying questions but as a rule of thumb we don't proceed past this point if we don't feel like the candidate is strong.
+If either the Lead Dev or Department Head have doubts about the interviewee we can e-mail the recuiter clairifying questions but as a rule of thumb we don't proceed past this point if we don't feel like the candidate is strong.
 
-    If both the Lead Dev and the department Head feel that Step 2 went well we should inform the recruiter that we're reading to pass along a technical exam, if we don't already have one we'll need to ask the recruiter for the interviewee's github ID.
+If both the Lead Dev and the department Head feel that Step 2 went well we should inform the recruiter that we're reading to pass along a technical exam, if we don't already have one we'll need to ask the recruiter for the interviewee's github ID.
 
 
 ## Step 3: Technical Test
