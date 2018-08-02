@@ -65,12 +65,9 @@ rubocop.lint(
 end
 
 if status_report.values.flatten.any?
-  markdown <<~DANGER_EXPLANATION
-  At Money Advice Service, we use Danger gem, to ensure that our
-  commits and pull requests follow\
-  [standards](https://github.com/moneyadviceservice/mas-standards/blob/master/Dangerfile).
-  If you think one of the points here has been raised in error (or \
-  shouldn't be in our standards), open an issue or pull request on [our \
-  Danger config](https://github.com/moneyadviceservice/mas-standards).
-  DANGER_EXPLANATION
+  markdown(
+    "At Money Advice Service, we use Danger gem, to ensure that our commits and pull requests follow " \
+    "[standards](https://github.com/moneyadviceservice/mas-standards/blob/master/Dangerfile). " \
+    "If you think one of the points here has been raised in error (or shouldn't be in our standards), " \
+    "open an issue or pull request on [our Danger config](https://github.com/moneyadviceservice/mas-standards).")
 end
