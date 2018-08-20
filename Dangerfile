@@ -46,6 +46,7 @@ end
 # ------------------------------------------------------------------------------
 rubocop.lint(
   files: git.modified_files + git.added_files,
+  force_exclusion: true,
   report_danger: true
 )
 
