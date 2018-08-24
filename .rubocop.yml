@@ -7,10 +7,12 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Exclude:
     - '**/*_spec.rb'
+    - '**/support/*.rb'
 Metrics/BlockLength:
   Exclude:
     - '**/*_spec.rb'
     - '**/shared_examples/*.rb'
+    - '**/support/*.rb'
 Layout/ClassStructure:
   Enabled: true
   Categories:
