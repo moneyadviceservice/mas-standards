@@ -30,14 +30,14 @@ Layout/ClassStructure:
   - private_methods
 Layout/DotPosition:
   EnforcedStyle: leading
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/ClassAndModuleChildren:
   Enabled: false
 Style/CollectionMethods:
   Enabled: false
-Style/EmptyLineAfterGuardClause:
-  Enabled: true
 Style/FormatString:
   Enabled: false
 Style/FrozenStringLiteralComment:
