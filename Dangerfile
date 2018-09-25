@@ -65,6 +65,22 @@ rubocop.lint(
   end
 end
 
+# ------------------------------------------------------------------------------
+# Do you have a Rails engine and you didn't bump the version?
+# ------------------------------------------------------------------------------
+is_an_engine = Dir.glob('lib/*/engine.rb').any?
+
+if is_an_engine
+  version_file = Dir.glob('lib/*/version.rb').first
+  unless git.modified_files.include?(version_file)
+    warn(
+      'It looks like this is a Rails engine, ' \
+      "but no changes to #{github.html_link(version_file)} detected. " \
+      'Did you forget to bump the version?'
+    )
+  end
+end
+
 if status_report.values.flatten.any?
   markdown(
     "At Money Advice Service, we use Danger gem, to ensure that our commits and pull requests follow " \
