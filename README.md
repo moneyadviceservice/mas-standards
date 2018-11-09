@@ -24,7 +24,7 @@ moneyadviceservice.org.uk
 * [Git](git-standards.md)
 * [Pull Request Code of Conduct](pull-request-code-of-conduct.md)
 * [Pull Request Technical Guide](pull-request-technical-guide.md)
-* [Mid Rande Back End Developer Interview Process](mid-range-back-end-developer-process.md)
+* [Mid Range Back End Developer Interview Process](mid-range-back-end-developer-process.md)
 
 ## Contributing
 
