@@ -4,6 +4,9 @@
 BIG_PULL_REQUEST_LINES = 500
 APP_FILES = /^(app|lib)/
 TEST_FILES = /^(features|spec|test)/
+ENGLISH_LOCALE_FILE = 'config/locales/en.yml'.freeze
+WELSH_LOCALE_FILE =   'config/locales/cy.yml'.freeze
+LOCALE_FILES = [ENGLISH_LOCALE_FILE, WELSH_LOCALE_FILE].freeze
 
 # ------------------------------------------------------------------------------
 # Additional pull request data
@@ -77,6 +80,21 @@ if is_an_engine
       'It looks like this is a Rails engine, ' \
       "but no changes to #{github.html_link(version_file)} detected. " \
       'Did you forget to bump the version?'
+    )
+  end
+end
+
+# ------------------------------------------------------------------------------
+# Did you update only the English locale forgetting Welsh one?
+# ------------------------------------------------------------------------------
+english_and_welsh = LOCALE_FILES.all? { |f| File.file?(f) }
+
+if english_and_welsh
+  only_one_changed = git.modified_files.one? { |f| LOCALE_FILES.include?(f) }
+  if only_one_changed
+    warn(
+      'You modified the locale file only for one language. ' \
+      "Are you sure you're not missing Welsh or English translation?"
     )
   end
 end
