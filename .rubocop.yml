@@ -44,6 +44,8 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/MethodDefParentheses:
   EnforcedStyle: require_parentheses
+Style/NumericPredicate:
+  Enabled: false
 Style/OptionHash:
   Enabled: true
 Style/RaiseArgs:
