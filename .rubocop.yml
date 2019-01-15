@@ -32,6 +32,8 @@ Layout/DotPosition:
   EnforcedStyle: leading
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
+Performance/RegexpMatch:
+  Enabled: false
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/ClassAndModuleChildren:
@@ -51,6 +53,8 @@ Style/OptionHash:
 Style/RaiseArgs:
   Enabled: false
 Style/RegexpLiteral:
+  Enabled: false
+Style/SafeNavigation:
   Enabled: false
 Style/StringLiterals:
   EnforcedStyle: single_quotes
