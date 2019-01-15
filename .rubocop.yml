@@ -32,6 +32,8 @@ Layout/DotPosition:
   EnforcedStyle: leading
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
+Performance/RegexpMatch:
+  Enabled: false
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/ClassAndModuleChildren:
