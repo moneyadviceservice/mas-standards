@@ -76,6 +76,7 @@ AllCops:
   - 'vendor/**/*'
   - 'Rakefile'
   - 'spec/dummy/bin/**/*'
+  - 'spec/dummy/db/schema.rb'
   - 'spec/dummy/config/**/*'
   - 'spec/dummy/script/**/*'
   - 'features/**/*'
