@@ -81,3 +81,4 @@ AllCops:
   - 'spec/dummy/script/**/*'
   - 'features/**/*'
   - 'node_modules/**/*'
+  - 'Gemfile.lock'
