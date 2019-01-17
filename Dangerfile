@@ -7,6 +7,7 @@ TEST_FILES = /^(features|spec|test)/
 ENGLISH_LOCALE_FILE = 'config/locales/en.yml'.freeze
 WELSH_LOCALE_FILE =   'config/locales/cy.yml'.freeze
 LOCALE_FILES = [ENGLISH_LOCALE_FILE, WELSH_LOCALE_FILE].freeze
+TARGETPROCESS_TICKET_TEXT = "moneyadviceservice.tpondemand.com"
 
 # ------------------------------------------------------------------------------
 # Additional pull request data
@@ -19,6 +20,17 @@ pr_url = github.pr_json["_links"]["html"]["href"]
 # ------------------------------------------------------------------------------
 has_app_changes = !git.modified_files.grep(APP_FILES).empty?
 has_test_changes = !git.modified_files.grep(TEST_FILES).empty?
+
+# ------------------------------------------------------------------------------
+# You forgot to link the Pull Request to a Targetprocess ticket?
+# ------------------------------------------------------------------------------
+unless github.pr_body.include?(TARGETPROCESS_TICKET_TEXT)
+  warn(
+    "There is no Targetprocess ticket associated to this PR. "\
+    "Please include the link to the corresponding task (TP-XXXX). "\
+    "If no ticket matches these changes consider creating one and linking it here."
+  )
+end
 
 # ------------------------------------------------------------------------------
 # You've made changes to app, but didn't write any tests?
