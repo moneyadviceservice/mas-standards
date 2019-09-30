@@ -7,7 +7,7 @@ TEST_FILES = /^(features|spec|test)/
 ENGLISH_LOCALE_FILE = 'config/locales/en.yml'.freeze
 WELSH_LOCALE_FILE =   'config/locales/cy.yml'.freeze
 LOCALE_FILES = [ENGLISH_LOCALE_FILE, WELSH_LOCALE_FILE].freeze
-TARGETPROCESS_TICKET_TEXT = "moneyadviceservice.tpondemand.com"
+TARGETPROCESS_TICKET_TEXT = "maps.tpondemand.com"
 
 # ------------------------------------------------------------------------------
 # Additional pull request data
