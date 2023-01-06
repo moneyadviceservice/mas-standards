@@ -1,6 +1,6 @@
 Documentation:
   Enabled: false
-Metrics/LineLength:
+Layout/LineLength:
   Max: 80
 Metrics/MethodLength:
   Max: 15
@@ -32,8 +32,6 @@ Layout/DotPosition:
   EnforcedStyle: leading
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
-Performance/RegexpMatch:
-  Enabled: false
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/ClassAndModuleChildren:
@@ -58,12 +56,6 @@ Style/SafeNavigation:
   Enabled: false
 Style/StringLiterals:
   EnforcedStyle: single_quotes
-Rails:
-  Enabled: true
-Rails/HttpPositionalArguments:
-  Enabled: true
-Rails/LexicallyScopedActionFilter:
-  Enabled: false
 AllCops:
   DisplayCopNames: true
   Exclude:
